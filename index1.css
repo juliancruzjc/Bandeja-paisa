@@ -1,0 +1,39 @@
+body{
+    background-color: darkred;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    block-size: 30px;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+
+
+img{
+    display: inline-block;
+    margin: -6cm;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    font-size: 33px;
+    margin-left: 8cm;
+}

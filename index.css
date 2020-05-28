@@ -1,0 +1,121 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    margin: 0 auto;
+    font-size: 24px;
+    color: black;
+}
+
+.header{
+    border: 2px solid lightslategray;
+}
+
+.header__menu{
+     color: black;
+     display: flex;
+     justify-content: space-between;
+}
+
+.header__menu ul{
+    display: flex;
+}
+
+.header__menu li{
+    display: inherit;
+}
+
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__menu a:hover{
+       background-color: darkred;
+       color: white;
+       border-radius: 10px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner{
+    color: black;
+    background-color: darkred;
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.servicios{
+    display: flex;
+    margin:100px;
+}
+
+.servicios__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px red;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.servicios__box img{
+    border-radius: 10px;
+}
+
+.servicios__card{
+    margin: 1px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.servicios_card button{
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px gray;
+}
+
+
+
+
+.title{
+    border-left: 6px sienna;
+    background-color: darkred; 
+    transform: uppercase;
+}
+
+
+.footer{
+    color: black;
+    background-color: red;
+    font-size: 12px;
+}
+
+.header1{
+    color: #757575;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px gray;
+    margin: 1px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
